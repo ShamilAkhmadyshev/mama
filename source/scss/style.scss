@@ -56,6 +56,13 @@
         justify-content: center;
         align-content: center;
         padding: 24px 0;
+        @media (max-width: 515px) {
+            gap: 40px;
+        }
+        @media (max-width: 394px) {
+            flex-direction: column;
+            gap: 15px;
+        }
     }
     &__link {
         color: #000000;
@@ -88,6 +95,10 @@
         }
         @media (max-width: 350px) {
             font-size: 34px;
+            margin: 0 0 40px 0;
+        }
+        @media (max-width: 350px) {
+            font-size: 28px;
         }
     }
 
@@ -162,7 +173,7 @@
 
 .left {
     img {
-        @media (min-width: 1045px) {
+        @media (min-width: 1061px) {
             &:hover {
                 transform: translateX(-400px);
             }
@@ -172,7 +183,7 @@
 
 .third {
     img {
-        @media (max-width: 1045px) and (min-width: 799px) {
+        @media (max-width: 1060px) and (min-width: 799px) {
             &:hover {
                 transform: translateX(-257px);
             }
