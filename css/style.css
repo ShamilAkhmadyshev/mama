@@ -207,18 +207,18 @@ h1, h2, h3, h4, h5, h6 {
   .item:hover img {
     width: 250%;
     height: 250%;
-    -webkit-transition-delay: 0.4s;
-         -o-transition-delay: 0.4s;
-            transition-delay: 0.4s;
+    -webkit-transition-delay: 0.5s;
+         -o-transition-delay: 0.5s;
+            transition-delay: 0.5s;
   }
 }
 @media (max-width: 1060px) and (pointer: fine) and (hover: hover) {
   .item:hover img {
     width: 200%;
     height: 200%;
-    -webkit-transition-delay: 0.4s;
-         -o-transition-delay: 0.4s;
-            transition-delay: 0.4s;
+    -webkit-transition-delay: 0.5s;
+         -o-transition-delay: 0.5s;
+            transition-delay: 0.5s;
   }
 }
 @media (max-width: 799px) and (pointer: fine) and (hover: hover) {
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (min-width: 1061px) {
+@media (min-width: 1061px) and (pointer: fine) and (hover: hover) {
   .left img:hover {
     -webkit-transform: translateX(-400px);
         -ms-transform: translateX(-400px);

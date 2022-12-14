@@ -156,12 +156,12 @@
             @media (min-width: 802px) and (pointer: fine) and (hover: hover) {
                 width: 250%;
                 height: 250%;
-                transition-delay: 0.4s;
+                transition-delay: 0.5s;
             }
             @media (max-width: 1060px) and (pointer: fine) and (hover: hover) {
                 width: 200%;
                 height: 200%;
-                transition-delay: 0.4s;
+                transition-delay: 0.5s;
             }
             @media (max-width: 799px) and (pointer: fine) and (hover: hover) {
                 width: 100%;
@@ -175,7 +175,9 @@
     img {
         @media (min-width: 1061px) {
             &:hover {
-                transform: translateX(-400px);
+                @media (pointer: fine) and (hover: hover) {
+                    transform: translateX(-400px);
+                }
             }
         }
     }
